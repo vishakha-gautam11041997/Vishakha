@@ -1,1 +1,1 @@
-# Vishakha-Image
+# Vishakha
