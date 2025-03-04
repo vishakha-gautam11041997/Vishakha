@@ -1,137 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-
+   
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Site Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+	
+     <!-- Site Metas -->
     <title>Vishakha Gautam</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-    <style>
-        /* Navbar */
-        .navbar {
-            background-color: #1785A8;
-            padding: 10px 0;
-        }
-
-        .navbar-nav {
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-        }
-
-        .navbar-nav .nav-item {
-            margin: 0 15px;
-        }
-
-        .navbar-nav .nav-link {
-            color: white;
-            font-weight: bold;
-            font-size: 16px;
-        }
-
-        /* Content Layout */
-        .profile-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 50px;
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .profile-details {
-            width: 60%;
-            text-align: left;
-        }
-
-        .profile-image {
-            width: 35%;
-            text-align: right;
-        }
-
-        .profile-image img {
-            width: 80%;
-            border-radius: 10px;
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Responsive */
-        @media (max-width: 992px) {
-            .profile-container {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .profile-details,
-            .profile-image {
-                width: 100%;
-                text-align: center;
-            }
-
-            .profile-image img {
-                width: 60%;
-            }
-        }
-    </style>
 </head>
+<body id="page-top" class="politics_version">
 
-<body>
-
+ 
+  
+	
+	
+	
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+    
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+	      
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link js-scroll-trigger active" href="#VishakhaGautam">Vishakha Gautam</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link js-scroll-trigger active" href="#interest">Interests</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link js-scroll-trigger active" href="#publications">Publications</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link js-scroll-trigger" href="#CV">CV</a>
+			  </li>
+			
+
+          </ul>
+	
+        </div>
+      </div>
+	</nav>
+	
+<!--HOME-->	
+	<section id="home" class="main-banner parallaxie" style="background: url('images/cell_biology_illustration.jpg')">
+		<div class="heading">
+			
+				
+				<div class="btn-ber">
+					<a class="get_btn hvr-bounce-to-top" href="#VishakhaGautam">Vishakha Gautam</a>
+					<a class="learn_btn hvr-bounce-to-top" href="#interest">Interests</a>
+				</div>
+				
+				
+				
+			</h3>
+		</div>
+	</section>
+<!--HOME ENDS-->
+
+<!-- Meet the PI-->
+    <div id="PI" class="section wb">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#VishakhaGautam">Vishakha Gautam</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#interest">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#CV">CV</a></li>
-                </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2 style="color:#1785A8">Ms. Vishakha Gautam</h2>
+                        <p style="font-size:20px; color:black"> PhD Scholar (Computational Biology)<br>
+							Indraprastha Institute of Information Technology, Delhi </p>
+						<p style="font-size:16px; color:black" align="justify">Vishakha is a Grad student at IIIT-Delhi. 
+							</p>
+
+						  
+			    
+			    
+			    
+			    
+                        <!--<a href="#" class="sim-btn hvr-bounce-to-top"><span>Contact Us</span></a>-->
+					</div><!-- end messagebox -->
+					<div class="btn-ber">
+						<a class="learn_btn hvr-bounce-to-top" href="https://scholar.google.com/citations?user=RnQzRdoAAAAJ&hl=en" target="_blank">Google Scholar Profile</a>
+					</div>
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="Images/Pic_Vishakha.JPG" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+<!--MEET THE PI ENDS-->
+
+
+<!--OUR INTEREST-->
+    <div id="interest" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+				<h3 style="color:#1785A8">Interests</h3>
+
+				<div >
+						<img src="uploads/cell_biology_illustration.jpg" class="img-fluid" alt="Image" width="500" height="600">
+				</div>
+		    <br><br>
+
+				
+				 <p style="font-size:20px; color:black" align="justify">Cell Biology & Yeast Biology: Understanding cellular processes, gene regulation, and metabolic pathways using yeast as a model system.
+					
+					
+					
+<br><br></p>
+				<p style="font-size:20px; color:black" align="justify">
+					Cheminformatics: Developing computational approaches for molecular activity prediction, drug discovery, and structure-activity relationship (SAR) modeling.
+				<br><br></p>	
+					
+				
+					
+				
+				<p style="font-size:20px; color:black" align="justify">
+					
+	    			<br>Computer Vision for Biological Image Analysis: Applying deep learning and image processing techniques for microscopy image analysis, cell segmentation, and phenotypic profiling.
+											
+											</p><br>
+								
+		
+		
+			
+				
+				
+				<p style="font-size:20px; color:black" align="justify">
+					Single-Cell Genomics: Investigating cellular heterogeneity and gene expression dynamics at the single-cell level using multi-omics approaches.
+	    			<br>
+											
+											</p><br>
+											
+	    				
+	
+
+			   	
+			
             </div>
-        </div>
-    </nav>
 
-    <!-- Profile Section -->
-    <div class="profile-container">
-        <div class="profile-details">
-            <h2 style="color:#1785A8">Ms. Vishakha Gautam</h2>
-            <p style="font-size:20px; color:black"> PhD Scholar (Computational Biology)<br>
-                Indraprastha Institute of Information Technology, Delhi 
-            </p>
-            <p style="font-size:16px; color:black" align="justify">
-                Vishakha is a graduate student at IIIT-Delhi with a keen interest in molecular activity prediction, cheminformatics, and biological image analysis.
-            </p>
-            <a class="btn btn-primary" href="https://scholar.google.com/citations?user=RnQzRdoAAAAJ&hl=en" target="_blank">Google Scholar Profile</a>
-        </div>
-
-        <div class="profile-image">
-            <img src="Images/Pic_Vishakha.JPG" alt="Vishakha Gautam">
+          
         </div>
     </div>
+<!--OUR INTEREST ENDS-->	
 
-    <!-- Bootstrap Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+<!--PUBLICATIONS-->
+	<div id="publications" class="section lb">
+		<div class="container">
+			<div class="section-title text-center">
+                <h3 style="color:#1785A8">Publications</h3>
+                <!--<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>-->
+            </div><!-- end title -->
+			
+			<h2><b>2023</b></h2>		
+	<p style="font-size:20px; color:black" align="justify">
+											<br><ul >
+
+
+
+
+												
+			<li style="font-size:20px; color:black; list-style: square;" align="justify" >Saproo,Sheetanshu; Sarkar, Shashanka S; <b>Gautam, Vishakha</b>; Konyak, Chingmei W; Dass, Gouri; Karmakar, Arpita; Sharma, Mansi; Ahuja, Gaurav; Gupta, Anand; Tayal, Juhi;  Mehta, Anurag; Naidu, Srivatsava; Salivary Protein Kinase C Alpha and novel microRNAs as potential diagnostic and therapeutic resistance markers for oral squamous cell carcinoma in an Indian cohort <b><I>
+Frontiers in Molecular Biosciences, 2023</I></b> </li>
+			                                  
+					                   
+			<li style="font-size:20px; color:black; list-style: square;" align="justify" >Mohanty, Sanjay Kumar;  Mittal, Aayushi; Gaur, Aakash; Solanki, Saveena;  Kumar,Suvendu;  Duari, Subhadeep;  Arora, Sakshi;  <b>Gautam, Vishakha</b>; Dixit, Nilesh Kumar; Ghosh, Tarini Shankar; Sengupta, Debarka;  Gupta, Shashi Kumar; Murugan, Natarajan Arul;  Ahuja, Gaurav; Gcoupler: An AI-enhanced tool unveiled Endogenous Intracellular Allosteric Modulators of Evolutionary Conserved GPCR-Gα Interface <b><I> bioRxiv</I></b> 2023.02. 14.528587 Cold Spring Harbor Laboratory</li>	
+		                                          
+			
+			                                   
+			
+					
+											</ul>
+											</p><br>
+				<br>
+			
+			
+			
+			
+			
+			<h2><b>2022</b></h2>
+	<p style="font-size:20px; color:black" align="justify">
+											<br><ul >
+			<li style="font-size:20px; color:black; list-style: square;" align="justify" >Mohanty; Sanjay Kumar, Maryam; Sidrah, <b>Gautam; Vishakha</b>, Mittal; Aayushi, Gupta; Krishan, Arora; Radhika, Bhadra; Wrik, Mishra; Tripti, Sengupta; Debarka, Ahuja, Gaurav; Transcriptional advantage influence odorant receptor gene choice <b><I>Briefings in Functional Genomics</I></b> </li>
+			                                   <li style="font-size:20px; color:black; list-style: square;" align="justify" >Mittal, Aayushi; Mohanty, Sanjay Kumar; <b>Gautam, Vishakha</b>; Arora, Sakshi; Saproo, Sheetanshu; Gupta, Ria; Sivakumar, Roshan; Garg, Prakriti; Aggarwal, Anmol; Raghavachary, Padmasini; Dixit, Nilesh Kumar; Singh, Vijay Pal;  Mehta, Anurag;  Tayal, Juhi;  Naidu, Srivatsava;  Sengupta, Debarka;  Ahuja, Gaurav; Artificial Intelligence uncovers carcinogenic human metabolites <b><I>Nature Chemical Biology</I></b> 18 11 1204-1213 2022 Nature Publishing Group </li>
+							   <li style="font-size:20px; color:black; list-style: square;" align="justify" >Ruhela, Vivek; Gupta, Anubha; Sriram, K; <b>Ahuja, Gaurav</b>; Kaur, Gurvinder; Gupta, Ritu; A Unified Computational Framework for a Robust, Reliable, and Reproducible Identification of Novel miRNAs From the RNA Sequencing Data <b><I>Frontiers in bioinformatics</I></b> 2   2022  </li>
+					                   <li style="font-size:20px; color:black; list-style: square;" align="justify" >Gupta, Prashant; Jindal, Aashi; <b>Ahuja, Gaurav</b>; Sengupta, Debarka; A new deep learning technique reveals the exclusive functional contributions of individual cancer mutations <b><I>Journal of Biological Chemistry</I></b> 298 8  2022 Elsevier </li>
+					                   <li style="font-size:20px; color:black; list-style: square;" align="justify" ><b>Gautam, Vishakha</b>; Gupta, Rahul; Gupta, Deepti; Ruhela, Anubhav; Mittal, Aayushi; Mohanty, Sanjay Kumar; Arora, Sakshi; Gupta, Ria; Saini, Chandan; Sengupta, Debarka; Ahuja Gaurav; deepGraphh: AI-driven web service for graph-based quantitative structure–activity relationship analysis <b><I>Briefings in Bioinformatics</I></b> 23 5 2022 Oxford Academic</li>	
+		                                      
+					
+											</ul>
+											</p><br>
+				<br>
+					
+			<h2><b>2021</b></h2>
+		
+		
+		
+		
+			
+		<p style="font-size:20px; color:black" align="justify">
+											<br><ul >
+
+					    
+					      <li style="font-size:20px; color:black; list-style: square;" align="justify" > <b>Gautam, Vishakha</b>; Mittal, Aayushi; Kalra, Siddhant; Mohanty, Sanjay Kumar; Gupta, Krishan; Rani, Komal; Naidu, Srivatsava; Mishra, Tripti; Sengupta, Debarka; Ahuja, Gaurav; EcTracker: Tracking and elucidating ectopic expression leveraging large-scale scRNA-seq studies <b><I>Briefings in Bioinformatics</I></b> 22 6 bbab237 2021 Oxford University Press </li>
+		
+
+					      <li style="font-size:20px; color:black; list-style: square;" align="justify" > Gupta, Ria; Mittal, Aayushi; Agrawal, Vishesh; Gupta, Sushant; Gupta, Krishan; Jain, Rishi Raj; Garg, Prakriti; Mohanty, Sanjay Kumar; Sogani, Riya; Chhabra, Harshit Singh; <b>Gautam, Vishakha</b>;  Mishra, Tripti; Sengupta, Debarka; Ahuja, Gaurav; OdoriFy: A conglomerate of artificial intelligence–driven prediction engines for olfactory decoding <b><I>Journal of Biological Chemistry</I></b> 297 2  2021 Elsevier </li>
+
+					   
+					      
+					      
+					      </ul>
+											</p><br>
+
+		</div>
+	</div>
+<!--PUBLICATIONS ENDS-->
+
+
+
+
+
+<!--Softwares-->
+<div id="softwares" class="section lb">
+	<div class="container">
+		<div class="section-title text-center">
+			<h3>Softwares</h3>
+			<!--<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>-->
+		</div><!-- end title -->
+		
+			
+
+		<div class="row">
+			
+			
+			<div class="col-md-4">
+				<div class="services-inner-box">
+					<div class="ser-icon">
+						<i class="flaticon-idea-1"></i>
+					</div>
+			                <h2>scCamAge(2024)</h2>
+					<p><a href="https://the-ahuja-lab.shinyapps.io/scCamAge/" target="_blank">Click here to visit</a></p>
+					</div>
+			</div><!-- end col -->	
+		
+			
+			
+<div class="col-md-4">
+				<div class="services-inner-box">
+					<div class="ser-icon">
+						<i class="flaticon-idea-1"></i>
+					</div>
+			                <h2>deepGraphh(2022)</h2>
+					<p><a href="https://deepgraphh.ahujalab.iiitd.edu.in/" target="_blank">Click here to visit</a></p>
+					</div>
+			</div><!-- end col -->
+			
+			
+			<div class="col-md-4">
+				<div class="services-inner-box">
+					<div class="ser-icon">
+						<i class="flaticon-idea-1"></i>
+					</div>
+					<h2>EcTracker(2021)</h2>
+					<p><a href="https://github.com/the-ahuja-lab/EcTracker" target="_blank">Click here to visit</a></p>
+					</div>
+			</div><!-- end col -->
+			
+
+			
+		</div><!-- end row -->
+	</div><!-- end container -->
+</div><!-- end section -->
+<!--Softwares end-->
+
+
+
+	
+
+<!-- Contact-->
+    <div id="contact" class="section wb">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="message-box">                        
+							<h2 style="color:#1785A8">Contact Us</h2>
+							<p style="font-size:18px; color:black" align="justify">
+									<b>Vishakha Gautam</b><br>
+									
+									Department of Computational Biology<br>
+									Indraprastha Institute of Information Technology, Delhi<br>
+									New Delhi-110020, India <br>
+									<b>Email:</b> vishakhag@iiitd.ac.in / vishakhagautam898@gmail.com <br>
+									<b>Phone:</b> (+91)8988391884<br>
+
+									<div class="social-icon" align="Center">
+											<a href="https://scholar.google.com/citations?user=RnQzRdoAAAAJ&hl=en" target="_blank" class="Google Scholar"><i class="fa fa-facebook" style="font-size: 3em"></i></a>
+										
+										   
+											
+									  
+											<a href="https://www.linkedin.com/in/vishakha-gautam-663b63114" target="_blank" class="linkedin"  style="font-size: 3em"><i class="fa fa-linkedin"></i></a>
+										   
+									</div>
+							</p>
+
+							<!--<a href="#" class="sim-btn hvr-bounce-to-top"><span>Contact Us</span></a>-->
+						</div><!-- end messagebox -->
+					</div><!-- end col -->
+	
+					<div class="col-md-6">
+						<div class="right-box-pro wow fadeIn">
+							<!-- <img src="uploads/c3.jpg" alt="" class="img-fluid img-rounded"> -->
+						</div><!-- end media -->
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div><!-- end section -->
+<!--CONTACT ENDS-->
+
+
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
 
 </body>
 </html>
